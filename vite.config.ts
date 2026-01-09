@@ -21,3 +21,7 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+export default defineConfig({
+  base: '/ten-repo-cua-ban/', // Nếu bạn dùng domain riêng thì bỏ qua bước này
+  plugins: [react()],
+})
